@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ * main - main block
+ * Description:  print the last digit of the number stored in the variable
+ * Return: 0
+*/
 int main(void)
 {
 	int n, m;
@@ -12,7 +15,7 @@ int main(void)
 	m = n % 10;
 	if (m > 5)
 	{
-		printf("Last digit if %d is %d and is greater than 5\n", n,m);
+		printf("Last digit if %d is %d and is greater than 5\n", n, m);
 	}
 	else if (m == 0)
 	{

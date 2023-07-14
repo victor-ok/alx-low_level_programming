@@ -1,20 +1,24 @@
 #include <stdio.h>
+
 /**
  * main - main block
- * Description: Use `putchar` to print lowercase alphabets except 'q' and 'e'.
- * Return: 0 
+ * Description: Use `putchar` to print lowercase alphabets except q and e
+ * Return: 0
 */
 int main(void)
 {
-    char c = "a";
-    while (c <= "z")
-    {
-        if (c != 'q' && c != 'e')
-        {
-            putchar(c);
-        }c++;
-    }
-    putchar("\n");
+	char c;
 
-    return (0);
+	c = "a";
+	while (c <= "z")
+	{
+		if (c != 'q' && c != 'e')
+		{
+			putchar(c);
+		}
+		c++;
+	}
+	putchar("\n");
+
+	return (0);
 }
