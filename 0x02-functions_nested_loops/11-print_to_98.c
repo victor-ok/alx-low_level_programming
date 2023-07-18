@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - main block
- * Description: a function that prints all natural numbers from n to 98, followed by a new line.
- * Return 0
+ * print_to_98 - a function that prints all natural numbers from n to 98
+ * @n: number to be inputed
+ * Return: list of numbers
 */
 
 void print_to_98(int n)

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - main block
- * Description: a function that prints the sign of a number Returns 1 and prints + if n is greater than zero Returns 0 and prints 0 if n is zero Returns -1 and prints - if n is less than zero.
- * Return 0
+ * print_sign - a function that prints the sign of a number
+ * @n: number to be checked
+ * Return: 1 and prints +, Returns 0 and prints 0, Returns -1 and prints -
 */
 
 int print_sign(int n)
