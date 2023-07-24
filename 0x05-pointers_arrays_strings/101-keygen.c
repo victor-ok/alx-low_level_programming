@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * main - prints a random word
+ * Return : 0
+*/
+
 int main(void)
 {
 	int total;
