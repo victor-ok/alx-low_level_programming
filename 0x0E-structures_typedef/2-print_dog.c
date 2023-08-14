@@ -5,7 +5,10 @@
 /**
  * print_dog - function to print a struct dog.
  * @d: the struct dog to be printed.
+ *
+ * Return void
  */
+
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
