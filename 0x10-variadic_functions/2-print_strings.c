@@ -3,14 +3,19 @@
 #include <stdarg.h>
 
 /**
- * 
+ * print_strings - a function that prints strings, followed by a new line.
+ *
+ * @separator: the string to be printed between the strings
+ * @n: the number of strings passed to the function
+ *
+ * Return: void
 */
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *s;
-	
+
 	va_list arg;
 
 	va_start(arg, n);
