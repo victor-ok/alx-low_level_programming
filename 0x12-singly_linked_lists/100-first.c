@@ -1,11 +1,8 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
- * construct - prints before executing main
+ * printBeforeMain - prints before executing main
  */
-
-void printBeforeMain (void) __attribute__((constructor));
 
 void printBeforeMain(void)
 {
