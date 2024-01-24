@@ -1,0 +1,1 @@
+A Makefile that sets a set of rukes to determine wich parts of a program need to be recompile, and issues command to recompile them.
